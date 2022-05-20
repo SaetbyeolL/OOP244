@@ -17,7 +17,6 @@
 
 namespace ws01 {
 
-	const char* const SHOPPING_DATA_FILE = "shoppinglist.csv";
 
 	bool openFileForRead();
 	bool openFileForOverwrite();
