@@ -19,9 +19,8 @@ using namespace std;
 
 namespace ws01 {
 
- 
+    const char* const SHOPPING_DATA_FILE = "shoppinglist.csv";
     FILE* sfptr = nullptr;
-    
 
     bool openFileForRead() {
         sfptr = fopen(SHOPPING_DATA_FILE, "r");
