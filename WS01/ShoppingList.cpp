@@ -1,5 +1,6 @@
 //**********************************************************************
 //Workshop : #1 (P1)
+//File     : ShoppingList.cpp
 //Full Name : Saetbyeol Lim
 //Student ID# : 149814212
 //Email : slim62@myseneca.ca
@@ -17,7 +18,7 @@
 
 using namespace std;
 
-namespace ws01 {
+namespace sdds {
 
     ShoppingRec recs[MAX_NO_OF_RECS] = {};
     int noOfRecs = 0;
@@ -36,6 +37,31 @@ namespace ws01 {
         }
         return ok;
     }
+    void displayList() {
+        for (int i = 0; i < noOfRecs; i++) {
+            cout << (i + 1) << "-";
+            displayShoppingRec(&recs[i]);
+        }
+    }
+
+    void removeBoughtItems() {
+        if (!listIsEmpty()) {
+            cout << "Removing bought items, are you sure?" << endl;
+            cout << "(Y)es/(N)o: ";
+            if (yes()) {
+                for (int i = 0; i < noOfRecs; i++) {
+                    if (recs[i].m_bought) removeItem(i--);
+                }
+            }
+            else {
+                cout << "Cancelled!" << endl;
+            }
+        }
+        else {
+            cout << "List is empty!" << endl;
+        }
+    }
+
     bool saveList() {
         bool ok = false;
         if (openFileForOverwrite()) {

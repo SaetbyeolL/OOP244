@@ -1,5 +1,6 @@
 //**********************************************************************
 //Workshop : #1 (P1)
+//File     : shoppingListApp.cpp
 //Full Name : Saetbyeol Lim
 //Student ID# : 149814212
 //Email : slim62@myseneca.ca
@@ -16,12 +17,11 @@
 #include "Utils.h"
 
 using namespace std;
-using namespace ws01;
+using namespace sdds;
 
 // set to false when compling on Linux
-const bool APP_OS_WINDOWS = true;
+const bool APP_OS_WINDOWS = false;
 
-//int main();
 int listMenu();
 
 int main() {

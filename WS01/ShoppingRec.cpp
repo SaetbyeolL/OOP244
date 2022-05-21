@@ -1,5 +1,6 @@
 //**********************************************************************
 //Workshop : #1 (P1)
+//File     : ShoppingRec.cpp
 //Full Name : Saetbyeol Lim
 //Student ID# : 149814212
 //Email : slim62@myseneca.ca
@@ -13,10 +14,9 @@
 #include "ShoppingRec.h"
 #include "Utils.h"
 
-
 using namespace std;
 
-namespace ws01 {
+namespace sdds {
 
     ShoppingRec getShoppingRec() {
         ShoppingRec R = {};

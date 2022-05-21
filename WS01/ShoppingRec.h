@@ -1,5 +1,6 @@
 ﻿//**********************************************************************
 //Workshop : #1 (P1)
+//File     : ShoppingRec.h
 //Full Name : Saetbyeol Lim
 //Student ID# : 149814212
 //Email : slim62@myseneca.ca
@@ -12,7 +13,7 @@
 #ifndef _244_SHOPPING_REC_H 
 #define _244_SHOPPING_REC_H 
 
-namespace ws01 {
+namespace sdds {
 
     const int MAX_TITLE_LENGTH = 50;
     const int MAX_QUANTITY_VALUE = 50;

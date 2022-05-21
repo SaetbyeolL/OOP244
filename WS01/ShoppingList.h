@@ -1,5 +1,6 @@
 //**********************************************************************
 //Workshop : #1 (P1)
+//File     : ShoppingList.h
 //Full Name : Saetbyeol Lim
 //Student ID# : 149814212
 //Email : slim62@myseneca.ca
@@ -13,7 +14,7 @@
 #ifndef _244_SHOPPING_LIST_H 
 #define _244_SHOPPING_LIST_H
 
-namespace ws01 {
+namespace sdds {
 
 	const int MAX_NO_OF_RECS = 15;
 

@@ -1,5 +1,6 @@
 //**********************************************************************
 //Workshop : #1 (P1)
+//File     : File.h
 //Full Name : Saetbyeol Lim
 //Student ID# : 149814212
 //Email : slim62@myseneca.ca
@@ -15,8 +16,9 @@
 #include "ShoppingRec.h"
 
 
-namespace ws01 {
+namespace sdds {
 
+	const char* const SHOPPING_DATA_FILE = "shoppinglist.csv";
 
 	bool openFileForRead();
 	bool openFileForOverwrite();

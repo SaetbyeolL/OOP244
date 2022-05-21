@@ -1,5 +1,6 @@
 //**********************************************************************
 //Workshop : #1 (P1)
+//File     : Utils.cpp
 //Full Name : Saetbyeol Lim
 //Student ID# : 149814212
 //Email : slim62@myseneca.ca
@@ -12,9 +13,10 @@
 #include <iostream>
 #include "Utils.h"
 
+
 using namespace std;
 
-namespace ws01 {
+namespace sdds {
 
 
     void flushkeys() {

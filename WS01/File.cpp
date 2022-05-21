@@ -1,5 +1,6 @@
 //**********************************************************************
 //Workshop : #1 (P1)
+//File     : File.cpp
 //Full Name : Saetbyeol Lim
 //Student ID# : 149814212
 //Email : slim62@myseneca.ca
@@ -9,17 +10,16 @@
 //that my professor provided to complete my workshops and assignments.
 //**********************************************************************
 
-//#define _CRT_SECURE_NO_WARNINGS
-//#pragma warning(suppress : 4996)
+#define _CRT_SECURE_NO_WARNINGS
 
 #include <iostream>
 #include "File.h"
 
+
 using namespace std;
 
-namespace ws01 {
+namespace sdds {
 
-    const char* const SHOPPING_DATA_FILE = "shoppinglist.csv";
     FILE* sfptr = nullptr;
 
     bool openFileForRead() {
