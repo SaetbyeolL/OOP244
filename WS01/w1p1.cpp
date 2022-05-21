@@ -30,8 +30,6 @@ const bool APP_OS_WINDOWS = false;
 
 using namespace std;
 
-
-
 void flushkeys();
 bool ValidYesResponse(char ch);
 bool yes();
