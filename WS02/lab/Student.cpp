@@ -36,7 +36,7 @@ namespace sdds {
         }
     }
 
-    bool load(Student& studentInfo) {
+    bool load(Student& studentInfo) { //studentInfo = students[0]
         char temp[128];
         bool result = false;
         if (read(temp) && read(studentInfo.m_studentNumber) && read(studentInfo.m_grade)) {
@@ -75,7 +75,7 @@ namespace sdds {
             return result;
         }
 
-        void display(const Student & reference) {
+        void display(const Student & reference) {// 기존 주소를 불러오지 않아도 출력하는데 문제가 없음으로 &생략가능. 
 
             cout << reference.m_name << ", " << reference.m_studentNumber << ": " << reference.m_grade << endl;
         }
