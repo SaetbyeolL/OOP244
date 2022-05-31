@@ -1,0 +1,27 @@
+//**********************************************************************
+//Workshop : #2 (P2)
+//Full Name : Saetbyeol Lim
+//Student ID# : 149814212
+//Email : slim62@myseneca.ca
+//Date : 5/30/2022 
+//Comment :
+//I have done all the coding by myself and only copied the code 
+//that my professor provided to complete my workshops and assignments.
+//**********************************************************************
+
+The most difficult parts were 1. Dynamic Memory 2. Function Overloading.
+Dynamic Memory is allocated when a user needs memory space, and can be deleted at any time the user wants. 
+In WS02-2, I wrote down as 'workers = new Employee[numberOfEmployee]; in 'bool readBirthDate(int month)' function 
+because of containing information about employees whose birthdays are in the same month 
+as the value entered by the user. After finishing execution, I wrote the following to erase unnecessary space.
+
+for (i = 0; i < numberOfEmployee; i++) {
+delete[] workers[i].m_name;
+}
+delete[] workers;
+
+Function overloading is defined as multiple functions with the same name but different number of arguments or data types. 
+When calling a function, the function with the same data type is called. In WS02-1, 
+when main() call  'load("students.csv")', Among  'bool load(const char * fileName)' and 'bool load(Student& studentInfo)', 
+'bool load(const char* fileName)' was called because 'load("students.csv")' parameter is char type and 
+It matches with 'bool load(const char* fileName)'.
