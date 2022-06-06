@@ -1,0 +1,24 @@
+//**********************************************************************
+//Workshop : #3 (P2)
+//Full Name : Saetbyeol Lim
+//Student ID# : 149814212
+//Email : slim62@myseneca.ca
+//Date : 6/6/2022 
+//Comment :
+//I have done all the coding by myself and only copied the code 
+//that my professor provided to complete my workshops and assignments.
+//**********************************************************************
+I was too confused to fully understand the concept of class. It took me a long time to understand 
+and realize that I can include a Bar pointer to hold the dynamically allocated array of Bars(Bar* m_Bar;) in a class called 'BarChart' 
+and think about how to apply it to coding.
+
+"void Bar::draw()const " 3 functions (setf, width, fill) newly discovered in this function were used to set the output value on the screen 
+the same as in the example. setf is a fill function that aligns the input value from the left, width is the width of the character, 
+and fills the rest. The values ​​to be output are neatly arranged using these three functions.
+
+'void BarChart::init(const char* title, int noOfSamples, char fill)' this member function was the most challenging part. 
+I just learned dynamic allocation last week, so I'm still not used to it. In this function, 
+I allocated the dynamically allocated memories for m_titleOfChart and m_Bar to initialize the Chart. 
+
+m_titleOfChart = new char[strlen(title) + 1];
+m_Bar = new Bar[m_sizeOfBar];

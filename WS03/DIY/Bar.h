@@ -11,21 +11,20 @@
 //**********************************************************************
 #ifndef _SDDS_BAR_H
 #define _SDDS_BAR_H
-#define MAX_CHARACTER 20
 
 namespace sdds {
 
 	class Bar {
-		char m_title[MAX_CHARACTER + 1];
+		char m_title[21];
 		char m_fillChar;
 		int m_sampleValue;
 
 	public:
 		void setEmpty();
-		void set(const char* title, char fillchar, int sampleVal);
-		bool isValid();
-		void draw()const;//BarChart¿¡µµ draw
+		void set(const char* title, char fillchar, int sampleValue);
+		bool isValid() const;
+		void draw()const;
 	};
 
 }
-#endif
+#endif // !SDDS_BAR_H

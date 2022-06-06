@@ -24,27 +24,16 @@ namespace sdds {
 		int m_numOfAddedSample;
 
 	public:
-		bool isValid();
+		bool isValid() const;
 		void init(const char* title, int noOfSampels, char fill);
 		void add(const char* bar_title, int value);
 		void draw()const;
 		void deallocate();
 
 	};
-
-
-
-
-
-
-
-
-
-
-
 }
 
-#endif 
+#endif // !SDDS_BARCHART_H
 
 
 
