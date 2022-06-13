@@ -72,7 +72,7 @@ namespace sdds {
 		}
 		return *this;
 	}
-
+	
 	void Car::printInfo() const{
 
 		cout << fixed << setprecision(2) << left << "| " << setw(10) << m_type;

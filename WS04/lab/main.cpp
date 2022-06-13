@@ -22,7 +22,7 @@ int main()
 		{"Sedan", "BMW", "M550i"}
 	};
 	
-	if (carInventory[2].setInfo("SUV", "Volvo", "XC90", 2019, 109, 80000).isValid()) {
+	if (carInventory[2].isValid()) {
 		cout << "Information was set correctly!" << endl;
 	}
 	else {
