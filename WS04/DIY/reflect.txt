@@ -1,0 +1,23 @@
+//**********************************************************************
+//Workshop : #4 (P2)
+//Full Name : Saetbyeol Lim
+//Student ID# : 149814212
+//Email : slim62@myseneca.ca
+//Date : 6/13/2022 
+//Comment :
+//I have done all the coding by myself and only copied the code 
+//that my professor provided to complete my workshops and assignments.
+//**********************************************************************
+The most important things in this entire WS4 workshop were the constructor&destructor and 'this'. 
+Within member functions, We can use a pointer named 'this', which is a pointer to the address of the object itself. 
+The address value and data type of the 'this' pointer are not fixed. We use the term 'this' when we support a class and need a pointer 
+to represent itself inside the class.
+The constructor has the same name as the class and is called when the class is instantiated, and the destructor is called 
+when the main function ends and is destroyed.  In w4p2, CleanerBot(); this constructor set the robot into an empty state. 
+When the main function ends, ~CleanerBot(); is called and is destroyed. 
+The most difficult part was the 'int report(CleanerBot* bot, short num_bots)'. It is a function that calls several functions and outputs them, 
+it took the most time because countless errors occurred in the process of calling several functions.
+
+
+
+
