@@ -1,0 +1,22 @@
+//**********************************************************************
+//Workshop : #WORKSHOP5 (P2)
+//Full Name : Saetbyeol Lim
+//Student ID# : 149814212
+//Email : slim62@myseneca.ca
+//Date : 5/20/2022 
+//Comment :
+//I have done all the coding by myself and only copied the code 
+//that my professor provided to complete my workshops and assignments.
+//**********************************************************************
+I learned various operators like binary, unary, helper operator and operator overload. 
+Operator overload means to use a user-defined class by overriding the operator that is already provided. 
+Overloaded operators are implemented as functions. It can be overloaded with unary or binary operators (&, *, +, -), 
+and each use can be overloaded separately. The first parameter of an operator overloaded as a member function 
+is always the class type of the object on which the operator is called .
+overload the += operator that accepts a power reference. The power should be added to the list of your hero. 
+Your heroes' power level and power count should be updated too. The 'Hero& Hero::operator+=(Power& power)' function 
+was the most difficult in this workshop. The power had to be added to the list of your hero and Hero's power level 
+and power count also had to be updated. So, I made 'temp' variable to store 'm_setOfPower' temporarily 
+and then I allocated new dynamic memory to m_setOfPower(m_setOfPower = new Power[m_numOfPower + 1]).  
+While running the for loop, the existing m_setOfPower values ​​stored in temp were added, 
+and the last added value of m_setOfPower was also added. (m_setOfPower[m_numOfPower] = power). Finally, I deleted the 'temp' variable that was no longer needed.
