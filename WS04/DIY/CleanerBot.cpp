@@ -126,7 +126,8 @@ namespace sdds {
 		return 0;
 	}
 
-	void sort(CleanerBot* bot, short num_bots) {
+	void sort(CleanerBot* bot, short num_bots)
+	{
 		short i, j;
 		CleanerBot temp;
 		for (i = num_bots - 1; i > 0; i--) {
