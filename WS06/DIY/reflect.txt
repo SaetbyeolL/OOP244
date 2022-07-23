@@ -1,0 +1,21 @@
+//**********************************************************************
+//Workshop : #WORKSHOP6 (P2)
+//Full Name : Saetbyeol Lim
+//Student ID# : 149814212
+//Email : slim62@myseneca.ca
+//Date : 7/8/2022 
+//Comment :
+//I have done all the coding by myself and only copied the code 
+//that my professor provided to complete my workshops and assignments.
+//**********************************************************************
+
+The difficult part in this workshop was the copy constructor and a copy assignment operator. 
+A copy constructor is a constructor (member function) that initializes by passing an argument 
+to another object of the same class type as itself in the form of a reference (&). 
+The copy constructor is called only once during initialization. 
+The copy constructor is used to reduce the hassle of re-assigning member data to a new object 
+when creating an object in the same class. It is convenient because it is used to get information of an object 
+that already exists. The newly created object is the same as the original object and has complete independence.
+The copy assignment operator is used to overwrite an object already assigned a value with another object. 
+Since the copy assignment operator may already have a value in the existing object, 
+the resource of the existing object must be removed.
