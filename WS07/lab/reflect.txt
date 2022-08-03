@@ -1,0 +1,22 @@
+//**********************************************************************
+//Workshop : #7 (P1)
+//Full Name : Saetbyeol Lim
+//Student ID# : 149814212
+//Email : slim62@myseneca.ca
+//Date : 18/7/2022 
+//Comment :
+//I have done all the coding by myself and only copied the code 
+//that my professor provided to complete my workshops and assignments.
+//**********************************************************************
+The most important parts to study in W7 and MILESTONE is base or parent class. 
+Inheritance is to use member variables of parent class' or 'member functions of parent class' in child classes, 
+except for 'private' in the parent class. By declaring the common variables and functions 
+of multiple objects in one class, there is no need to re-create variables or functions that perform the same function. 
+In W7, "Minister::Minister(const char* id, int age, int year, const char* name, const char* district) : MemberParliament(id, age)" 
+This is the part where inheritance occurs. When creating an instance of Minister, 
+Minister's custom constructor inherits MemberParliament's id and age. 
+Since I was new to the concept of inheritance, it took time to implement the function.
+The additional difficult part was implementing the Menu class and MenuItem in MS1. 
+the MenuItem class can only be accessed using the Menu class. For this, 'friend class Menu;' I added the term "friend".
+It took a long time to declare member variables, member functions, 
+and custom input/output operators because it is the first step to moving forward with the future project.
