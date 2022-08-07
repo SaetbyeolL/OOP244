@@ -1,0 +1,25 @@
+//**********************************************************************
+//Workshop : #9 (P1)
+//Full Name : Saetbyeol Lim
+//Student ID# : 149814212
+//Email : slim62@myseneca.ca
+//Date : 1/Aug/2022 
+//Comment :
+//I have done all the coding by myself and only copied the code 
+//that my professor provided to complete my workshops and assignments.
+//**********************************************************************
+In this workshop, 'FullName class' inherits 'Name class' and outputs the name as Name+Lastname. 
+'Name class' override all the member functions of the Base class Name. Since there is a character pointer type m_value in 'Name class', 
+I made copy constructor, copy assignment and destruction(rule of three). When an instance of the FullName class is created, 
+the constructor of FullName is not executed first, but the default constructor of the base class (Name) is executed first 
+and then the FullName() constructor is executed. 
+The most difficult part was "std::istream&FullName::read(std::istream& istr)". 
+To figure it out, "The newline character is removed from istream and the istream reference is returned." I had to use 'getline'. 
+MS4 had a similar structure to workshop9. Also, "std::istream& Book::read(std::istream& is)" of 'Book.cpp' of MS4 was difficult and took a lot of time as well. 
+I kept checking the output value. I thought I should definitely study the concepts of 'get' and 'getline' more.
+
+
+
+
+
+
