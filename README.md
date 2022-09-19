@@ -1,3 +1,3 @@
 # OOP244
-- C++ beginner course
+- C++ study in Seneca college
 - List of C++ Assignment each week
