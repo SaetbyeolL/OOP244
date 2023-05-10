@@ -32,7 +32,7 @@ namespace sdds {
 		else {
 			m_content = nullptr;
 		}
-
+		 
 	}
 
 	MenuItem::~MenuItem() {
