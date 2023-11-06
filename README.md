@@ -1,7 +1,7 @@
 # OOP244
-Basic Course for C++
-List of C++ Assignment each week
-Final Project : Seneca Library Application
+ Basic Course for C++
+ List of C++ Assignment each week
+ Final Project : Seneca Library Application
 
 - WEEK01: OOP / Object Terminology
 - WEEK02: Types, References and Overloading / Dynamic Memory
