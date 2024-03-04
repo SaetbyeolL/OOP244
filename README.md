@@ -4,7 +4,7 @@
 <div>-  Functions: Add, Remove, Return, Checkout publication</div>
 <div>-  Applied object-oriented programming principles by creating classes and objects to encapsulate data and associated functionalities</div>
 <br>
-________________________________________________________________________________________________________________________________________________________
+_____________________________________________________________________________________________________________________
 <h1>Program Output</h1>
 <h2>Add New Publication</h2>
 
